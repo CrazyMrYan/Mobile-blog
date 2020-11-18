@@ -1,6 +1,6 @@
 /**
  * @description: 路由
- * @author: nowThen
+ * @author: CraazyYan
  */
 
 import Vue from 'vue';

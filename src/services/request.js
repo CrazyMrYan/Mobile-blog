@@ -1,6 +1,6 @@
 /*
  *  接口请求封装
- * @Author: nowThen
+ * @Author: CraazyYan
  * @Date: 2019-08-14 12:00:02
  */
 import axios from "axios"; // 引入axios
@@ -53,11 +53,11 @@ instance.interceptors.request.use(
           // config.data = data;
         } else if (contentType.includes("json")) {
           // 类型 'application/json;'
-          // 服务器收到的raw body(原始数据) "{name:"nowThen",age:"18"}"（普通字符串）
+          // 服务器收到的raw body(原始数据) "{name:"CraazyYan",age:"18"}"（普通字符串）
           config.data = JSON.stringify(config.data);
         } else {
           // 类型 'application/x-www-form-urlencoded;'
-          // 服务器收到的raw body(原始数据) name=nowThen&age=18
+          // 服务器收到的raw body(原始数据) name=CraazyYan&age=18
           config.data = Qs.stringify(config.data);
         }
       }

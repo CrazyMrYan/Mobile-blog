@@ -1,6 +1,6 @@
 /**
  * @description: 项目入口文件
- * @author: nowThen
+ * @author: CraazyYan
  */
 
 import Vue from 'vue';

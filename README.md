@@ -7,7 +7,7 @@
 
 ## 说明
 项目涉及@vue/CLI3构建、移动端h5开发、axios封装、通用化组件等。
-持续更新...
+后台接口对应 另外一个项目 [Mobile-blog-Api](https://github.com/CrazyMrYan/Mobile-blog-Api)
 
 
 ## 构建命令

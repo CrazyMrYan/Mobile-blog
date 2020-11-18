@@ -1,5 +1,5 @@
 /* 生成接口，并将接口挂载到vue的原型上
- * @Author: nowThen
+ * @Author: CraazyYan
  * @Date: 2019-08-14 16:41:37
  */
 

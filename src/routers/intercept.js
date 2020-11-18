@@ -1,6 +1,6 @@
 /**
  * @description: 路由拦截
- * @author: nowThen
+ * @author: CraazyYan
  */
 
 import router from './index';
