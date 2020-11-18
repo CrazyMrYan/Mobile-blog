@@ -15,7 +15,6 @@
         </div>
       </div>
     </div>
-    <!-- <mavon-editor :boxShadow="false" :editable="false" defaultOpen="preview" :toolbarsFlag="false" :preview="true" :subfield="false" v-model="value"/> -->
   </section>
 </template>
 

@@ -1,17 +1,15 @@
 {
-  "name": "vue-h5-pro",
+  "name": "Mobile-blog",
   "author": {
-    "name": "nowthen",
-    "email": "rnlvwyx@gmail.com"
+    "name": "CrazyYan",
+    "email": "crazymryan@gmail.com"
   },
-  "description": "基于@vue/CLI3构建的移动端h5项目模板",
   "keywords": [
     "vue-h5",
     "vue-cli",
     "@vue/CLI3",
     "vue",
     "webpack4",
-    "vue-h5-pro",
     "nowthen"
   ],
   "version": "0.1.0",
