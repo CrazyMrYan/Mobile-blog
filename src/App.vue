@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <transition :name="direction">
-      <router-view class="page" />
+      <keep-alive>
+        <router-view v-if='$route.meta.keepAlive' class="page"></router-view>
+        <router-view v-else class="page"></router-view>
+      </keep-alive>
     </transition>
   </div>
 </template>

@@ -12,6 +12,7 @@ const Blog = () => import(/* webpackChunkName: "demo" */ '@/views/blog');
 const Error = () => import(/* webpackChunkName: "error" */ '@/views/error');
 const EditBlog = () => import('@/views/editBlog');
 const showBlog = () => import('@/views/showBlog');
+const weatherInfo = () => import('@/views/hello/weather');
 Vue.use(Router);
 
 const routes = [
@@ -20,7 +21,7 @@ const routes = [
     name: 'hello',
     component: Hello,
     meta: {
-      title: '首页'
+      title: '首页',
     }
   },
   {
@@ -66,6 +67,13 @@ const routes = [
     component: showBlog,
     meta: {
       title: '详情'
+    }
+  },{
+    path:'/weatherInfo',
+    name: 'weatherInfo',
+    component: weatherInfo,
+    meta: {
+      title: '天气预报'
     }
   }
 ];

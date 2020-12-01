@@ -3,8 +3,8 @@
   <transition :name="`tip-${position}`">
     <div class="rn-tip" :class="`rn-tip-${position}`" v-show="value" @click="hide(true)">
       <slot>
-        <div class="default-tip-title" :class="`default-tip-${type}`">
-          <span class="default-text">{{text}}</span>
+        <div class="default-tip-title" :class="`default-tip-${Param.type}`">
+          <span class="default-text">{{Param.text}}</span>
         </div>
       </slot>
     </div>
@@ -34,6 +34,9 @@ export default {
     delay: {
       type: Number,
       default: 2000
+    },
+    Param:{
+      type: Object,
     },
     position: {
       type: String,
@@ -82,6 +85,9 @@ export default {
   },
   beforeDestroy() {
     clearTimeout(this.timer);
+  },
+  created(){
+    console.log(this.Param)
   }
 };
 </script>

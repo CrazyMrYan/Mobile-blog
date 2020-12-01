@@ -4,7 +4,7 @@ import axios from 'axios';
 axios.defaults.timeout = 5000;
 axios.defaults.baseURL = '';
 import router from '../routers/index'
-const API_URL = 'http://192.168.0.138:8080/api/'
+const API_URL = 'http://192.168.7.123:8080/api/'
 
 //http request 拦截器
 axios.interceptors.request.use(
@@ -20,11 +20,11 @@ axios.interceptors.request.use(
 		// 	const token = localStorage.getItem('token');
 		// 	console.log('request,token:' + token)
 		// }
-		config.headers['Authorization'] = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiMTIxMiIsImlhdCI6MTYwNTY2NDUyNywiZXhwIjoxNjA1NzUwOTI3fQ.sZ4hG3doF46GpLDDQgMfJv7jkNlztpzN0u8O33sfoKE'
+		config.headers['Authorization'] = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoieWpoIiwiaWF0IjoxNjA2NTgxNjg4LCJleHAiOjE2MDY2NjgwODh9.Xvc36lttuG6UAS_33XfHAvNbU2Y0NWkeo85duB-RXrI'
 
 		// 
 		// config.url = API_URL 
-        config.url = "http://192.168.0.138:8080/api/" + config.url
+        config.url = 'http://192.168.7.123:8080/api/' + config.url
         console.log(config)
 		return config;
 	},

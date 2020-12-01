@@ -29,7 +29,7 @@ Vue.use(Highlight);
 FastClick.attach(document.body);
 
 Vue.config.errorHandler = (err, vm, info) => {
-  console.error(err);
+  // console.error(err);
 };
 Vue.config.devtools = process.env.NODE_ENV === 'development';
 Vue.config.productionTip = process.env.NODE_ENV === 'production';
